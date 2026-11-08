@@ -1,0 +1,31 @@
+{
+  "title": "Counter Flame",
+  "subtitle": "Mod Menu",
+  "accent": "#E04444",
+  "sections": [
+    {
+      "title": "Combat",
+      "items": [
+        { "id": "aimbot", "label": "Aimbot", "type": "toggle", "default": false },
+        { "id": "aim_lock", "label": "Aim lock", "type": "toggle", "default": false },
+        { "id": "magic_bullet", "label": "Magic bullet", "type": "toggle", "default": false },
+        { "id": "auto_fire", "label": "Auto fire", "type": "toggle", "default": false },
+        { "id": "aim_circle", "label": "Aim circle", "type": "toggle", "default": false }
+      ]
+    },
+    {
+      "title": "Visuals",
+      "items": [
+        { "id": "esp", "label": "ESP", "type": "toggle", "default": false },
+        { "id": "streamer_mode", "label": "Streamer mode", "type": "toggle", "default": false }
+      ]
+    },
+    {
+      "title": "Aim point",
+      "items": [
+        { "id": "aim_head", "label": "Head", "type": "choice", "group": "aim_point", "default": true },
+        { "id": "aim_body", "label": "Body", "type": "choice", "group": "aim_point", "default": false }
+      ]
+    }
+  ]
+}
